@@ -9,11 +9,11 @@ import {
     TouchableWithoutFeedback,
     Dimensions,
     Platform,
-    ViewPropTypes,
     I18nManager,
 } from 'react-native';
 import Ripple from 'react-native-material-ripple';
 import { TextInput } from 'react-native-paper';
+import { ViewPropTypes } from "deprecated-react-native-prop-types";
 
 import DropdownItem from '../item';
 import styles from './styles';
